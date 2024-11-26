@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #a22052;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    /*  Faltou o top para deixar no topo */
+    gap: 100px;
+    z-index: 1000;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif n;
+    font-size: 22px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 0, 0);
+}
+
+header #search-bar {
+    display: flex;
+}
+
+#search-bar {
+    display: flex;
+    gap: 10px;
+}
+
+#search-bar #button-search-bar {
+    background-color: #8a234a;
+    border-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: #f5f5f5;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+section {
+    position: relative;
+    padding-bottom: 10px;
+
+}
+
+#section-diabetes-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+
+}
+
+#paragrafo h1 {
+    font-size: 30px;
+}
+
+.diabetes {
+    display: flex;
+    justify-content: center;
+    align-items: safe;
+    width: 100%;
+    padding-left: 25%;
+    margin-top: 30px;
+}
+
+#paragrafo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    width: 100%;
+    gap: 10-px;
+    text-align: justify;
+}
+
+#paragrafo h2 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#paragrafo p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+}
+
+.logo_tipo_1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#diabetes_1_video iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 515px;
+    margin-top: 10px;
+}
+
+#diabetes_1_video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    background-color: #a22052;
+}
+
+#diabetes_1_video h3 {
+    font-size: 18px;
+    color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#especialistas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.especialistas_section {
+    display: flex;
+    align-items: center;
+    margin-inline-start: 30%;
+    width: auto;
+    height: auto;
+    gap: 10px;
+}
+
+.especialistas_texto_texto h3 {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    padding-bottom: 10px;
+}
+
+.especialistas_texto_texto p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50%;
+    height: 300px;
+    text-align: justify;
+}
+
+hr {
+    width: 75%;
+    margin: auto;
+
+    
+}
+
+footer {
+    background-color: #88d498;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-navigation li {
+    margin-bottom: 10px;
+}
+
+.footer-navigation a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.footer-contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+main #contato {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .diabetes {
+        flex-direction: column;
+        padding: 10%;
+    }
+
+    .especialistas_section {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    header #logo_tipo {
+        max-width: 40px;
+    }
+    header nav a {
+        font-size: 0.9rem;
+    }
+
+    #paragrafo {
+        padding-left: 0%;
+    }
+
+    .diabetes {
+        padding: 0%;
+        display: flex;
+        flex-direction: row;
+        padding-inline: 10px;  
+        align-items: center;
+    }
+
+    #section-diabetes-1 p {
+        font-size: 8px;
+        width: 100%;
+        padding: 10;
+    }
+
+    #section-diabetes-1 h2 {
+        font-size: 8px;
+    }
+
+    #section-diabetes-1 h1 {
+        font-size: 8px;
+    }
+
+    .logo_tipo_1 {
+        width: 50px;
+        height: 50px;
+       margin-top: 0;
+       margin-right: 10px;
+    }
+
+    #diabetes_1_video h3{
+      font-size: 10px;
+    }
+
+    #diabetes_1_video iframe {
+        width: 250px;
+        height: 150px;
+    }
+
+    #especialistas{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .especialistas_section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+    }
+
+    .especialistas_section img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .especialistas_section h3 {
+        font-size: 10px;
+    }
+
+    .especialistas_section p {
+        font-size: 10px;
+        align-items: center;
+        display: flex;
+       width: 100%;
+       height: 40px;
+        padding-right: 10px;
+
+    }
+    
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="logo_tipo" src="assets/images/logo.png" alt="Logo representando o diabetes tipo 1">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#section-diabetes-1">Início</a></li>
+                <li><a href="#diabetes_1_video">Sobre</a></li>
+                <li><a href="#especialistas">Especialista</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <form id="search-bar">
+            <input type="text" placeholder="Pesquisar" required>
+            <button id="button-search-bar" type="submit">Procurar</button>
+        </form>
+    </header>
+    <main>
+        <article id="section-diabetes-1">
+            <section class="diabetes">
+                <div id="paragrafo">
+                    <h1>Diabete</h1>
+                    <h2>O que é diabetes ?</h2>
+                    <p>A diabetes é uma condição crônica caracterizada pela elevação dos níveis de glicose no sangue
+                        (glicemia),
+                        causada pela produção insuficiente de insulina ou pela resistência à sua ação. A insulina é um
+                        hormônio
+                        produzido pelo pâncreas e tem a função de permitir que a glicose, proveniente dos alimentos,
+                        entre nas
+                        células para ser transformada em energia. Quando esse processo é comprometido, o açúcar se
+                        acumula no
+                        sangue, levando a complicações diversas ao longo do tempo.</p>
+                </div>
+            </section>
+            <section class="diabetes">
+                <img src="assets/images/logo_tipo_1.png" alt="logo diabetes tipo 1" class="logo_tipo_1">
+                <div id="paragrafo">
+                    <h2>Diabetes tipo 1</h2>
+                    <p>Geralmente diagnosticada na infância ou adolescência, ocorre quando o sistema imunológico ataca
+                        as células produtoras de insulina no pâncreas. Pessoas com diabetes tipo 1 necessitam de
+                        insulina diariamente para controlar os níveis de glicose.</p>
+                </div>
+            </section>
+            <section id="diabetes_1_video">
+                <h3 id="video">Veja um pouco sobre a diabetes tipos 1</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q6rLXPJ6j_I?si=pt0r18lJFwQt6mrt"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+            <section id="especialistas">
+                <h2>Especialistas</h2>
+                <div class="especialistas_section">
+                    <img src="assets/images/jessica_castro.png" alt="Dra.Jessica Castro">
+                    <div class="especialistas_texto_texto">
+                        <h3>Dra.Jessica Castro</h3>
+                        <p>Dra. Jessica Castro graduou-se em Medicina pela Universidade Federal do Ceará (UFC) em 2009 e
+                            concluiu a residência em Clínica Médica na Escola de Saúde Pública do Ceará em 2013. Em
+                            2015,
+                            finalizou a residência em Endocrinologia na Universidade Estadual de Campinas (UNICAMP), e
+                            em
+                            seguida ingressou na pós-graduação, adquirindo o título de Mestre e Doutora em Ciências
+                            Médicas
+                            pela mesma universidade, com término em 2023.</p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="contato">
+                <h2>Entre em Contato</h2>
+                <p>Preencha o formulário abaixo para nos enviar uma mensagem.</p>
+
+                <form action="#" method="post">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                    </div>
+
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="" disabled selected>Escolha um assunto</option>
+                            <option value="suporte">Suporte</option>
+                            <option value="reclamacao">Reclamação</option>
+                            <option value="sugestao">Sugestão</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                    </div>
+
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer id="contato">
+        <div class="footer-navigation">
+            <ul>
+                <li><a href="politica-privacidade.html">Política de Privacidade</a></li>
+                <li><a href="termos-uso.html">Termos de Uso</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                <img src="assets/images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                <img src="assets/images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                <img src="assets/images/instagram.png" alt="Instagram">
+            </a>
+        </div>
+
+        <div class="footer-contact">
+            <p>Entre em contato:</p>
+            <p>Email: <a href="email:contato@meusite.com">contato@meusite.com</a></p>
+            <p>Telefone: <a href="tel:+5585999999999">(85) 99999-9999</a></p>
+            <p><a href="contato.html">Seção de Contato</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
